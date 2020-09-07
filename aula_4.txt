@@ -1,0 +1,61 @@
+    1  clear
+    2  git log
+    3  git log
+    4  clear
+    5  git log
+    6  git status
+    7  touch teste
+    8  git add teste
+    9  git status
+   10  git commit -m 'commit de teste'
+   11  git status
+   12  git add teste
+   13  git status
+   14  git log
+   15  git reset --soft HEAD~
+   16  git log
+   17  git status
+   18  git commit -m 'commit de teste'
+   19  git log
+   20  git reset --hard HEAD~
+   21  git log
+   22  git status
+   23  git log --pretty=line 
+   24  git log --prety=oneline
+   25  git log --pretty=oneline
+   26  git chechot HEAD~~
+   27  git checkout HEAD~~
+   28  git status
+   29  git log
+   30  ls
+   31  git checkout master
+   32  git log
+   33  clear
+   34  mkdir .vscode
+   35  cd .vscode
+   36  touch conf.txt
+   37  ls
+   38  cd .
+   39  cd ..
+   40  ls
+   41  ls -a
+   42  git status
+   43  echo '.vscode/' > .gitigonore
+   44  git status
+   45  mv .vscode/ .gitingore
+   46  git status
+   47  echo '.gitigonore' > .gitignore
+   48  git status
+   49  echo '.gitingore/' > .gitignore
+   50  git status
+   51  echo '.gitgonore' >> .gitignore
+   52  git status
+   53  git add .gitignore
+   54  git commit -m 'adicionado arquivo .gitignore'
+   55  git status
+   56  echo '.gitigonore' > .gitignore
+   57  git status
+   58  git add .gitignore
+   59  git commit -m 'comitando otro archivo .gitnore'
+   60  git status
+   61  history > aula_4.txt
